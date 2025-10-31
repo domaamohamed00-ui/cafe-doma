@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Doma | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ===== خلفية الموقع بالكامل ===== */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('c:\Users\User\Downloads\photo-1498804103079-a6351b050096.jpeg'); /* ← حط هنا خلفية الويب */
+    
+      color: #6a3030;
+    }
+
+    .navbar {
+      background: rgba(10, 53, 110, 0.7);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    .navbar a {
+      color: rgb(13, 3, 34);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a.active {
+      color: #f39c12;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 60px 0;
+    }
+
+    .hero .drinks {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .drink {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      padding: 15px;
+      width: 150px;
+    }
+
+    .drink img {
+      width: 100%;
+      height: 120px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .drink p {
+      margin: 10px 0 0;
+      font-weight: bold;
+    }
+
+    /* ===== مكان السعر ===== */
+    .price {
+      color: #f39c12;
+      font-size: 16px;
+    }
+
+    /* ===== الفوتر (للتليفون وواتساب) ===== */
+    footer {
+      background: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #f39c12;
+      text-decoration: 01224101133;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- ======= HEADER ======= -->
+  <header class="navbar">
+    <div class="logo">☕ Cafe Doma</div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Manage</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+    <div class="user">
+      <span>DOMA</span> <span class="emoji">😊</span>
+    </div>
+  </header>
+
+  <!-- ======= HERO SECTION ======= -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h2>Trending</h2>
+      <div class="drinks">
+        <div class="drink">
+          <img src="c:\Users\User\Downloads\download (3).jpeg" alt="Cappuccino">
+          <p>Cappuccino</p>
+          <p class="price">Price: 12$ </p>
+        </div>
+        <div class="drink">
+          <img src="c:\Users\User\Downloads\download (4).jpeg" alt="Mocha">
+          <p>Mocha</p>
+          <p class="price">Price: 23$ </p>
+        </div>
+        <div class="drink">
+          <img src="c:\Users\User\Downloads\download (7).jpeg" alt="Piccolo Latte">
+          <p>Piccolo Latte</p>
+          <p class="price">Price: 8$ </p>
+        </div>
+        <div class="drink">
+          <img src="c:\Users\User\Downloads\download (8).jpeg" alt="Cafe Latte">
+          <p>Café Latte</p>
+          <p class="price">Price: 17$ </p>
+        </div>
+        <div class="drink">
+          <img src="c:\Users\User\Downloads\images (1).jpeg" alt="Espresso">
+          <p>Espresso</p>
+          <p class="price">Price: 15$ </p>
+        </div>
+        <div class="drink">
+          <img src="c:\Users\User\Downloads\download (6).jpeg" alt="Black Coffee">
+          <p>Black Coffee with Milk</p>
+          <p class="price">Price: 7$
